@@ -14,7 +14,12 @@ class Fetching extends Component {
   }
   render () {
     return (
-      <h1>hi</h1>
+      <div>
+        {this.state.videos.map((video) => (
+            <h1>{ video.id }</h1>
+          )
+        )}
+      </div>
     );
   }
 };
