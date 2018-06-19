@@ -5,6 +5,6 @@ module.exports = [
   },
   {
     'id': '828',
-    'text': 'blah blah'
+    'text': 'from dummy.js'
   }
 ];
